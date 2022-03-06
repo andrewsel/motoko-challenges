@@ -1,1 +1,1 @@
-# motoko-challenges
+# Motoko Bootcamp Daily Challenges
