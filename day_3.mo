@@ -59,12 +59,12 @@ actor {
   };
 
   // Challenge 6
-  // public func populate_array(array: [?Nat]) : async [Nat] {
-  //   let f = func (n : ?Nat) : Nat {
-  //     return Option.get(n, 0)
-  //   };
-  //   return Array.map<Nat>(array, f);
-  // };
+  public func populate_array(array: [?Nat]) : async [Nat] {
+    let f = func (n : ?Nat) : Nat {
+      return Option.get(n, 0)
+    };
+    return Array.map<?Nat, Nat>(array, f);
+  };
 
   // Challenge 7
   public func sum_of_array(array: [Nat]) : async Nat {
