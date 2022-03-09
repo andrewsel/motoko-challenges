@@ -8,7 +8,7 @@
       "type": "motoko",
       "main": "day_2.mo"
     },
-    "day_3": {
+    "day_3b": {
       "type": "motoko",
       "main": "day_3.mo"
     }
